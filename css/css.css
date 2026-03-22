@@ -39,7 +39,7 @@ body {
 
 .navbar__main {
   display: flex;
-  align-items: center;
+  align-items:center;
   justify-content: space-between;
   width: 80%;
   background: rgba(255, 255, 255, 0.08);
@@ -67,7 +67,6 @@ body {
 .navbar__menu--link {
   color: white;
   transition: all 0.3s ease;
-  font-family:;
 }
 
 .navbar__menu--link:hover {
@@ -637,4 +636,11 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+}
+
+
+.navbar__logo{
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
 }
