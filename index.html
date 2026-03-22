@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ZEI Portfolio</title>
+    <link rel="stylesheet" href="./css/css.css" />
+    <link rel="shortcut icon" href="./images/logo.jpg" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+  <body>
+    <video autoplay loop muted class="backgraund">
+      <source src="./animation/cosmic-drive.1920x1080.mp4" />
+    </video>
+    <nav class="navbar cantenr">
+      <div class="navbar__main">
+        <div class="navbar__logo">
+          <h1 class="logo">ZEI</h1>
+        </div>
+        <div class="menu">
+          <a href="#bror" class="navbar__menu--link">Bosh Sahifa</a>
+          <a href="#" class="navbar__menu--link">Yo'nalish</a>
+          <a href="#" class="navbar__menu--link">Yoq'tirishlar</a>
+        </div>
+
+        <div class="bars" onclick="menuAll()">
+          <i class="fa-solid fa-bars" id="bars__icon"></i>
+        </div>
+      </div>
+    </nav>
+    <div class="bars__main" onclick="menuAll()">
+      <div class="bars__menu">
+        <div class="bars__menu--main">
+          <a href="#bror" class="bars__menu--link" onclick="menuAll()"
+            >Bosh Sahifa</a
+          >
+          <a href="#" class="bars__menu--link" onclick="menuAll()">Yo'nalish</a>
+          <a href="#" class="bars__menu--link" onclick="menuAll()"
+            >Yoq'tirishlar</a
+          >
+        </div>
+      </div>
+    </div>
+    <div class="header cantenr">
+      <div class="left">
+        <h1 class="header__title">Mening Ismim Orifjonov Muhammad Yusuf</h1>
+        <p class="header__subtitle">
+          Men 1 Yilldan beri Ovoz aktiyorilik qlaman va Yurist man bu qiziqshm
+          orqali <br />
+          anchagina yutuqlarga erishdm va bu mening Hobbiym mening <br />
+          asosi ishm Yuristlik va meni
+        </p>
+        <a href="https://t.me/Zei_Dubbing">
+          <button class="left__btn">Kanalg O'tish</button>
+        </a>
+      </div>
+
+      <div class="right">
+        <img src="./images/laoa.png" alt="person" class="right__photo" />
+      </div>
+    </div>
+
+    <main class="main"></main>
+  </body>
+  <script src="./javascript/app.js"></script>
+</html>
