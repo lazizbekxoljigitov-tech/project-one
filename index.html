@@ -22,12 +22,17 @@
     <video autoplay loop muted class="backgraund">
       <source src="./animation/cosmic-drive.1920x1080.mp4" />
     </video>
+    <audio class="audio" src="./audio/audio.mp3"></audio>
     <nav class="navbar cantenr">
       <div class="navbar__main">
         <div class="navbar__logo">
           <h1 class="logo">ZEI</h1>
         </div>
         <div class="menu">
+          <div class="music">
+            <i class="fa-solid fa-play" id="playe" onclick="playew()"></i>
+            <i class="fa-solid fa-pause" id="pausee" onclick="pause()"></i>
+          </div>
           <a href="#bror" class="navbar__menu--link">Bosh Sahifa</a>
           <a href="#" class="navbar__menu--link">Yo'nalish</a>
           <a href="#" class="navbar__menu--link">Yoq'tirishlar</a>
@@ -41,6 +46,10 @@
     <div class="bars__main" onclick="menuAll()">
       <div class="bars__menu">
         <div class="bars__menu--main">
+          <div class="music">
+            <i class="fa-solid fa-play" id="playe" onclick="playew()"></i>
+            <i class="fa-solid fa-pause" id="pausee" onclick="pause()"></i>
+          </div>
           <a href="#bror" class="bars__menu--link" onclick="menuAll()"
             >Bosh Sahifa</a
           >
@@ -69,7 +78,6 @@
         <img src="./images/laoa.png" alt="person" class="right__photo" />
       </div>
     </div>
-
     <main class="main"></main>
   </body>
   <script src="./javascript/app.js"></script>
