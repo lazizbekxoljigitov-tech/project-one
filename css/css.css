@@ -39,7 +39,7 @@ body {
 
 .navbar__main {
   display: flex;
-  align-items:center;
+  align-items: center;
   justify-content: space-between;
   width: 80%;
   background: rgba(255, 255, 255, 0.08);
@@ -355,6 +355,7 @@ body {
 
 .card__subtitle {
   padding-left: 10px;
+  font-family: Rubik;
 }
 
 @media (max-width: 613px) {
@@ -618,12 +619,14 @@ body {
     transform 0.2s,
     box-shadow 0.2s;
   backdrop-filter: blur(6px);
+  padding: 0 10px;
 }
 
 .phone:hover {
   background: rgba(255, 255, 255, 0.22);
   transform: translateY(-2px);
   box-shadow: 0 4px 14px rgba(200, 80, 220, 0.4);
+  padding: 0 10px;
 }
 
 @media (max-width: 390px) {
@@ -638,9 +641,17 @@ body {
   }
 }
 
-
-.navbar__logo{
+.navbar__logo {
   display: flex;
   align-items: center;
   margin-top: 10px;
+}
+
+.header__title > span {
+  text-shadow:
+    0px 2px 4px rgba(255, 255, 255, 0.3),
+    0px 4px 8px rgba(192, 38, 211, 0.8),
+    0px 8px 16px rgba(124, 58, 237, 0.7),
+    0px 16px 32px rgba(88, 28, 135, 0.6),
+    0px 24px 48px rgba(0, 0, 0, 0.6);
 }
